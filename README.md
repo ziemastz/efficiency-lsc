@@ -17,3 +17,9 @@ The theoretical model that calculates the efficiency of the counter consists of 
 - Tests and partial data enabling verification of the theoretical model and analysis of the calculation process.
 - Keeping your own calculations in history
 - Graphical visualization of calculations
+
+### Motivation
+
+The project was created as part of the 100COMMITOW contest. The goal is to expand programming skills.
+During the project, I'll improve skills in clear architecture and TDD.
+Thanks the [DevMentors](https://github.com/devmentors) team for motivating me.
