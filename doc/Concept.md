@@ -3,8 +3,36 @@
 ## Roadmap
 
 -[] Find core business domain
--[] Entities (e.g. Nuclide, AtomicData, Shell)
-....
+    Entities:
+    - Radionuclide
+    - DecayMode
+      - ElectronCapture
+      - Beta
+      - Alfa
+      - Metastable - DelayedParticle
+    - ParticleEmissions
+      - BetaEmission
+      - AlfaEmission
+      - GammaXEmission
+      - ConversionElectronEmission
+      - AugerElectronEmission
+    - AtomicData
+    - ElectronCloud -> ElectronRearrangement process
+      - Shell
+      - SubShell
+        - Electron
+    
+    Object Value:
+    - AtomicNumber
+    - MassNumber
+    - HalfLife
+    - Unit
+    - Energy
+    - Uncertainty
+    - Probability
+    - Intensity
+    - ConversionCoefficient
+...
 
 ## Technology used
 
@@ -17,6 +45,7 @@
 - Clean Architecture & Code
 - Domain-Driver Design **DDD**
 - Test-Driver Design **TDD**
+- SOLID principles
 
 ## Aim
 
