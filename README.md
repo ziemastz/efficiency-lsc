@@ -23,3 +23,7 @@ The theoretical model that calculates the efficiency of the counter consists of 
 The project was created as part of the 100COMMITOW contest. The goal is to expand programming skills.
 During the project, I'll improve skills in clear architecture and TDD.
 Thanks the [DevMentors](https://github.com/devmentors) team for motivating me.
+
+## License
+
+[MIT license](https://github.com/ziemastz/efficiency-lsc/blob/main/LICENSE)
