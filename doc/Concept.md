@@ -3,7 +3,8 @@
 ## Roadmap
 
 -[] Find core business domain
-    Entities:
+
+Entities:
     - Radionuclide
     - DecayMode
       - ElectronCapture
@@ -26,7 +27,7 @@
     - Cocktail
     - Efficiency
     - 
-    Object Value:
+Object Value:
     - AtomicNumber
     - MassNumber
     - HalfLife
@@ -36,6 +37,7 @@
     - Probability
     - Intensity
     - ConversionCoefficient
+
 ...
 
 ## Technology used
