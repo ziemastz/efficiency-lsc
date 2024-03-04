@@ -6,26 +6,26 @@
 
 Entities:
 - Radionuclide
-  - DecayMode
-    - ElectronCapture
-    - Beta
-    - Alfa
-    - Metastable - DelayedParticle
-    - ParticleEmissions <- decay spectra
-      - BetaEmission
-      - AlfaEmission
-      - GammaXEmission
-      - ConversionElectronEmission
-      - AugerElectronEmission
-    - AtomicData
-    - ElectronCloud -> ElectronRearrangement process
-      - Shell
-      - SubShell
-        - Electron
-  - Counter
-  - Vial
-  - Cocktail
-  - Efficiency
+- DecayMode
+  - ElectronCapture
+  - Beta
+  - Alfa
+  - Metastable - DelayedParticle
+- ParticleEmissions <- decay spectra
+  - BetaEmission
+  - AlfaEmission
+  - GammaXEmission
+  - ConversionElectronEmission
+  - AugerElectronEmission
+- AtomicData
+- ElectronCloud -> ElectronRearrangement process
+  - Shell
+  - SubShell
+    - Electron
+- Counter
+- Vial
+- Cocktail
+- Efficiency
 
 Object Value:
 - AtomicNumber
