@@ -26,7 +26,7 @@ Entities:
   - Vial
   - Cocktail
   - Efficiency
-    - 
+
 Object Value:
 - AtomicNumber
 - MassNumber
