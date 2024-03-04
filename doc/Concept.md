@@ -42,7 +42,7 @@ Object Value:
 
 ## Technology used
 
-- NET8, dotnet
+- NET8
 - Visual Code
 - Git, GitHub.com
 
