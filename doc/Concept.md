@@ -10,7 +10,7 @@
       - Beta
       - Alfa
       - Metastable - DelayedParticle
-    - ParticleEmissions
+    - ParticleEmissions <- decay spectra
       - BetaEmission
       - AlfaEmission
       - GammaXEmission
@@ -21,7 +21,11 @@
       - Shell
       - SubShell
         - Electron
-    
+    - Counter
+    - Vial
+    - Cocktail
+    - Efficiency
+    - 
     Object Value:
     - AtomicNumber
     - MassNumber
