@@ -5,12 +5,12 @@
 -[] Find core business domain
 
 Entities:
-    - Radionuclide
-    - DecayMode
-      - ElectronCapture
-      - Beta
-      - Alfa
-      - Metastable - DelayedParticle
+- Radionuclide
+  - DecayMode
+    - ElectronCapture
+    - Beta
+    - Alfa
+    - Metastable - DelayedParticle
     - ParticleEmissions <- decay spectra
       - BetaEmission
       - AlfaEmission
@@ -22,21 +22,21 @@ Entities:
       - Shell
       - SubShell
         - Electron
-    - Counter
-    - Vial
-    - Cocktail
-    - Efficiency
+  - Counter
+  - Vial
+  - Cocktail
+  - Efficiency
     - 
 Object Value:
-    - AtomicNumber
-    - MassNumber
-    - HalfLife
-    - Unit
-    - Energy
-    - Uncertainty
-    - Probability
-    - Intensity
-    - ConversionCoefficient
+- AtomicNumber
+- MassNumber
+- HalfLife
+- Unit
+- Energy
+- Uncertainty
+- Probability
+- Intensity
+- ConversionCoefficient
 
 ...
 
