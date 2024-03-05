@@ -1,4 +1,4 @@
-﻿dotnet add <Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\eLSC.Domain\eLSC.Domain.csproj" />
