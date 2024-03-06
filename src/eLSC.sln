@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLSC.Application", "eLSC.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLSC.Infrastructure", "eLSC.Infrastructure\eLSC.Infrastructure.csproj", "{A6B84681-64BE-4BA5-944F-FEBE40352427}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLSC.Architecture.Test", "..\tests\eLSC.Architecture.Test\eLSC.Architecture.Test.csproj", "{828E82FD-3435-48CA-95C8-233BBBDF3C13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A6B84681-64BE-4BA5-944F-FEBE40352427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B84681-64BE-4BA5-944F-FEBE40352427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B84681-64BE-4BA5-944F-FEBE40352427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
