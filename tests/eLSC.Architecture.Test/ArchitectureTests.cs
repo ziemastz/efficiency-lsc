@@ -1,4 +1,6 @@
+
 namespace eLSC.Architecture.Test;
+
 
 public class ArchitectureTests
 {
