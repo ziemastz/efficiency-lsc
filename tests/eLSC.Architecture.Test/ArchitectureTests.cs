@@ -13,18 +13,35 @@ public class ArchitectureTests
     [Fact]
     public void DomainShouldNotHaveDependencyOnOtherProject()
     {
-       // var assembly = typeof(Domain.Entities).Assembly;
+        var assembly = typeof(Domain.AssemblyReference).Assembly;
 
         var otherProjects = new[]
         {
-            DomainNamespace,
             ApplicationNamespace,
             InfrastructureNamespace,
         };
 
-        var result = Types.InCurrentDomain()
+        var result = Types.InAssembly(assembly)
             .ShouldNot()
-            .NotHaveDependencyOnAny(otherProjects)
+            .HaveDependencyOnAll(otherProjects)
+            .GetResult();
+
+        result.IsSuccessful.Should().BeTrue();
+    }
+
+    [Fact]
+    public void ApplicationShouldNotHaveDependencyOnOtherProject()
+    {
+        var assembly = typeof(Application.AssemblyReference).Assembly;
+
+        var otherProjects = new[]
+        {
+            InfrastructureNamespace,
+        };
+
+        var result = Types.InAssembly(assembly)
+            .ShouldNot()
+            .HaveDependencyOnAll(otherProjects)
             .GetResult();
 
         result.IsSuccessful.Should().BeTrue();
