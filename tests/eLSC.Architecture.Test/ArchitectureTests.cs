@@ -1,4 +1,3 @@
-
 namespace eLSC.Architecture.Test;
 
 
@@ -12,7 +11,7 @@ public class ArchitectureTests
     public void DomainShouldNotHaveDependencyOnOtherProject()
     {
         // arrange
-        var assembly = typeof(eLSC.Domain.).Assembly;
+        var assembly = typeof(eLSC.Domain).Assembly;
         // act
 
         // assert

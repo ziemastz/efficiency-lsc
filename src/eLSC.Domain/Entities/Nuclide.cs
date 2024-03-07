@@ -1,6 +1,6 @@
-namespace eLSC.Domain;
+namespace eLSC.Domain.Entities;
 
-public class Nulcide
+public class Nuclide
 {
 
 }
