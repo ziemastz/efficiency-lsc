@@ -1,5 +1,9 @@
 namespace eLSC.Domain.Entities;
 
-public class Nuclide
+public class Nuclide : BaseEntity
 {
+    public Nuclide(int Id) 
+    : base(Id)
+    {
+    }
 }
