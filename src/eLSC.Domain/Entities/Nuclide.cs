@@ -1,8 +1,10 @@
+using eLSC.Domain.ValueObjects;
+
 namespace eLSC.Domain.Entities;
 
 public class Nuclide : BaseEntity
 {
-    public int AtomicNumber { get; private set; }
+    public AtomicNumber AtomicNumber { get; private set; }
     public int MassNumber { get; private set; }
 
     public Nuclide(int id, int atomicNumber, int massNumber) 
