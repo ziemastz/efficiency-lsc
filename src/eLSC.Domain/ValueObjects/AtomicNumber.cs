@@ -8,7 +8,7 @@ public sealed class AtomicNumber
 
     public AtomicNumber(int value)
     {
-        if (value is 1 < or > 10)
+        if (value < 1 || value > 118)
         {
             throw new InvalidAtomicNumberException(value);
         }
