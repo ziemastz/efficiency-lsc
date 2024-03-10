@@ -1,6 +1,6 @@
 namespace eLSC.Domain.UnitTests;
 
-public class UnitTest1
+public class NuclideTests
 {
     [Fact]
     public void Test1()
