@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLSC.Infrastructure", "eLSC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLSC.Architecture.Test", "..\tests\eLSC.Architecture.Test\eLSC.Architecture.Test.csproj", "{828E82FD-3435-48CA-95C8-233BBBDF3C13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLSC.Domain.UnitTests", "..\tests\eLSC.Domain.UnitTests\eLSC.Domain.UnitTests.csproj", "{BA8DBC5D-7AE5-41CA-A4BD-6A65A453FCCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{828E82FD-3435-48CA-95C8-233BBBDF3C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8DBC5D-7AE5-41CA-A4BD-6A65A453FCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8DBC5D-7AE5-41CA-A4BD-6A65A453FCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8DBC5D-7AE5-41CA-A4BD-6A65A453FCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8DBC5D-7AE5-41CA-A4BD-6A65A453FCCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
