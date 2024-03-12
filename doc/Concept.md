@@ -5,7 +5,7 @@
 -[] Find core business domain
 
 Entities:
-- Radionuclide
+- Nuclide
 - DecayMode
   - ElectronCapture
   - Beta
