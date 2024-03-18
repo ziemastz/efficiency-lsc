@@ -8,5 +8,4 @@ public class DecayEnergy : BaseEntity
     }
 
     public IEnumerable<Branch> Branches { get; set;}
-    
 }
