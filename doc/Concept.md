@@ -38,10 +38,36 @@ Object Value:
 - Intensity
 - ConversionCoefficient
 
-...
+New aproach of entities/domain of app:
+- Nuklid
+  - AtomicNumber
+  - MassNUmber
+  - Element -> name
+  - Symbol - > e.g. Co-60
+  - DecayData?
+    - HalfLife
+    - Branches
+      - DecayMode(abstract class)
+      - Intensive
+      - Intensive
+      - Intensive
+      - ExcitedLevel
+      - LevelHalfLife
+      - DaugtherId->Nuklid(stable or not)
+  - AtomicData
+    - AtomicRadius
+    - CosterKroningYields
+    - FluorescenceYields
+    - Shells->contain subshells
+      - SubShell
+        - AugerTransition (Vacancy(SubshellId),Occupancy,Emitting,Intensity)
+        - XRayTransition (Vacancy,Occupancy, Intensity)
+        - Electrons (maxElektron)
+        - BindingEnergy (energy_eV)
 
-## Technology used
-
+. . . 
+  
+## Tech nology used
 - NET8
 - Visual Code
 - Git, GitHub.com
